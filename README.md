@@ -12,5 +12,5 @@ pip install unitree_webrtc_connect==2.0.3
 You'll need to make sure the dog is in AP mode. This will get it to emit a wifi hotspot. The password for the wifi hotspot is the same as the password for the dog's account. Connect your computer to the wifi hotspot then run the scripts:
 
 ```sh
-python play_mp3.py
+python ./src/play_mp3.py
 ```

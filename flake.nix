@@ -64,6 +64,18 @@
                 stdenv.cc.cc.lib   # libstdc++.so.6
                 zlib
                 portaudio
+
+                libGL
+                glib
+                xorg.libxcb
+                xorg.libX11
+                xorg.libXext
+                xorg.libSM
+                xorg.libICE
+                libxkbcommon
+                fontconfig
+                freetype
+                dbus
               ])}:$LD_LIBRARY_PATH
 
               venvVersionWarn() {
